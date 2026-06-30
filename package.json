@@ -50,7 +50,7 @@
     "typescript": ">=5.0.0"
   },
   "dependencies": {
-    "@vorionsys/shared-constants": "^1.0.5",
+    "@vorionsys/shared-constants": "^2.0.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
