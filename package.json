@@ -62,7 +62,8 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": "true"
+    "provenance": true,
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "build": "tsup src/index.ts src/proof-bridge.ts --format esm,cjs --dts --clean",
