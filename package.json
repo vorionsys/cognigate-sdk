@@ -1,6 +1,6 @@
 {
   "name": "@vorionsys/cognigate-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Real-time AI governance decision engine — TypeScript SDK for the Cognigate API",
   "keywords": [
     "ai",
