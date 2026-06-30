@@ -2,7 +2,14 @@
   "name": "@vorionsys/cognigate-sdk",
   "version": "1.0.4",
   "description": "Real-time AI governance decision engine — TypeScript SDK for the Cognigate API",
-  "keywords": ["ai", "governance", "trust", "agents", "cognigate", "vorion"],
+  "keywords": [
+    "ai",
+    "governance",
+    "trust",
+    "agents",
+    "cognigate",
+    "vorion"
+  ],
   "license": "Apache-2.0",
   "author": "Vorion LLC",
   "homepage": "https://cognigate.dev",
@@ -29,9 +36,15 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": false,
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "peerDependencies": {
     "@vorionsys/basis-spec": "^1.2.0",
     "typescript": ">=5.0.0"
@@ -41,6 +54,7 @@
     "zod": "^3.24.0"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.7.0",
@@ -48,7 +62,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true
+    "provenance": "true"
   },
   "scripts": {
     "build": "tsup src/index.ts src/proof-bridge.ts --format esm,cjs --dts --clean",
